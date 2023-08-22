@@ -1,0 +1,30 @@
+.footer {
+    background-color: #186eb7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px !important;
+    line-height: 40px;
+    color: white;
+  }
+  
+  .socialFooter a i {
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+  }
+  
+  .socialFooter a {
+    display: inline-block;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #0e283f;
+    text-align: center;
+    margin-right: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .socialFooter a:hover {
+    background-color: #1b88e7;
+    transform: scale(1.1);
+  }
