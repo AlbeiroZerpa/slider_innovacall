@@ -64,6 +64,10 @@ body {
   background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-pilares-1.jpg");
 }
 
+#innova-contacto{
+  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-contacto.jpg");
+}
+
 .flips-innova {
   display: flex;
   justify-content: space-between;
@@ -128,4 +132,8 @@ body {
 }
 #flip-box-tres{
   background-color: rgb(66, 171, 237);
+}
+.iframe-contacto{
+  width: 100%;
+  height: 70vh;
 }
