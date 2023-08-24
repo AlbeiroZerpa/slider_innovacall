@@ -59,6 +59,9 @@ export const Navbar = () => {
               <Link className="nav-link" to="/soluciones">
                 Soluciones
               </Link>
+              <Link className="nav-link" to="/canales">
+                Canales
+              </Link>
               <Link className="nav-link" to="/contacto">
                 Contacto
               </Link>

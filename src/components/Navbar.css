@@ -10,6 +10,12 @@
   color: white;
 }
 
+.preheader a i {
+  font-size: 20px;
+  margin-top: 5px;
+  color: white;
+}
+
 .preheader a {
   display: inline-block;
   width: 40px;
@@ -31,7 +37,7 @@
 }
 
 .nav-link {
-    font-size: 21px;
+  font-size: 21px;
   position: relative;
   padding-bottom: 8px;
   text-decoration: none;
@@ -70,5 +76,8 @@
   }
   .nav-link {
     font-size: 18px;
+  }
+  .lineaLogosCanales {
+    display: none;
   }
 }
