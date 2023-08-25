@@ -192,3 +192,29 @@ body {
   opacity: 1;
   z-index: -1;
 }
+#carouselExampleControls{
+  width: 100%;
+}
+.carousel-item{
+  height: calc(100vh - 176px);
+}
+#soluciones-uno{
+  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bks-servicios.jpg");
+}
+#soluciones-dos{
+  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-01.jpg");
+}
+#soluciones-tres{
+  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-02.jpg");
+}
+#soluciones-cuatro{
+  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-03-1.jpg");
+}
+#soluciones-cinco{
+  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-04.jpg");
+}
+.circulo-img{
+  width: 100%;
+  max-width: 300px;
+  margin-right: 1.2rem;
+}
