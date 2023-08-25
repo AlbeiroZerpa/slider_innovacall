@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { MainApp }  from './MainApp.jsx'
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
   <BrowserRouter>
-      <MainApp/>
+    <MainApp />
   </BrowserRouter>
-  /* </React.StrictMode> */
-)
+  // </React.StrictMode>
+);

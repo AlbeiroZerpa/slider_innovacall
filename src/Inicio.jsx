@@ -1,31 +1,18 @@
 // Import Swiper React components
+import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/free-mode";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // import required modules
-import { Mousewheel, Pagination } from "swiper/modules";
+import { Mousewheel, Pagination, FreeMode, Navigation } from "swiper/modules";
 import "./Inicio.css";
 
 export const Inicio = () => {
-  let items = document.querySelectorAll(".carousel .carousel-item");
-
-  items.forEach((el) => {
-    const minPerSlide = 4;
-    let next = el.nextElementSibling;
-    for (var i = 1; i < minPerSlide; i++) {
-      if (!next) {
-        // wrap carousel by using first child
-        next = items[0];
-      }
-      let cloneChild = next.cloneNode(true);
-      el.appendChild(cloneChild.children[0]);
-      next = next.nextElementSibling;
-    }
-  });
-
   return (
     <>
       <Swiper
@@ -81,7 +68,7 @@ export const Inicio = () => {
                   <h5>Soluciones Sistemas Conversacionales NLP - Chatbots</h5>
                   <p>
                     En la historia de la humanidad, la inteligencia artificial
-                    es lo mas importante en lo que el hombre ha trabajado.{" "}
+                    es lo mas importante en lo que el hombre ha trabajado.
                     <b>Sundar Pichai - CEO Google</b>
                   </p>
                 </div>
@@ -148,7 +135,72 @@ export const Inicio = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        
+          <div className="container pt-lg-5 pt-1">
+            <div className="row">
+              <div className="col-12">
+                <h1 className="tituloTercerSlider">Confianza y respaldo</h1>
+              </div>
+              <div className="col-12">
+                <p className="textoTercerSlider">
+                  Las empresas más importantes del país confían en nosotros.
+                  Operamos en diferentes sectores de la industria nacional:
+                </p>
+              </div>
+            </div>
+            <Swiper
+              slidesPerView={4}
+              spaceBetween={20}
+              navigation={true}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Navigation, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/01-icon-financiero.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/02-icon-seguros.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/03-icon-serpub.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/04-icon-educacion.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/05-icon-telecom.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/06-icon-salud.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="https://millenium.com.co/wp-content/uploads/2019/04/07-icon-gobierno.png"
+                  className="d-block w-100 imgTercerSlider"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </SwiperSlide>
       </Swiper>
     </>

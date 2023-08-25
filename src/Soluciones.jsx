@@ -60,33 +60,21 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comments-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Chat</p>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-question-circle-o fa-2x"></i>
+                      <p className="tituloLogoCanales">Servicio al cliente</p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comment-o fa-2x"></i>
-                      <p className="tituloLogoCanales">
-                        Mensajería instantánea
-                      </p>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-shopping-cart fa-2x"></i>
+                      <p className="tituloLogoCanales">Ventas</p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-user-circle-o fa-2x"></i>
-                      <p className="tituloLogoCanales">
-                        Puntos Atención Virtual
-                      </p>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-money fa-2x"></i>
+                      <p className="tituloLogoCanales">Cobranzas</p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-facebook-official fa-2x"></i>
-                      <p className="tituloLogoCanales">Redes Sociales</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-envelope-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Email</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-mobile fa-2x"></i>
-                      <p className="tituloLogoCanales">Apps Móviles</p>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-bullhorn fa-2x"></i>
+                      <p className="tituloLogoCanales">Telemercadeo</p>
                     </div>
                   </div>
                 </div>
@@ -118,33 +106,17 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comments-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Chat</p>
+                    <div className="col-md-4 logo-col">
+                      <i className="logoFondo fa fa-thumbs-o-up fa-2x"></i>
+                      <p className="tituloLogoCanales">Gestión de PQR's</p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comment-o fa-2x"></i>
-                      <p className="tituloLogoCanales">
-                        Mensajería instantánea
-                      </p>
+                    <div className="col-md-4 logo-col">
+                      <i className="logoFondo fa fa-headphones fa-2x"></i>
+                      <p className="tituloLogoCanales">Mesa de ayuda</p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-user-circle-o fa-2x"></i>
-                      <p className="tituloLogoCanales">
-                        Puntos Atención Virtual
-                      </p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-facebook-official fa-2x"></i>
-                      <p className="tituloLogoCanales">Redes Sociales</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-envelope-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Email</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-mobile fa-2x"></i>
-                      <p className="tituloLogoCanales">Apps Móviles</p>
+                    <div className="col-md-4 logo-col">
+                      <i className="logoFondo fa fa-file-o fa-2x"></i>
+                      <p className="tituloLogoCanales">Gestión documental</p>
                     </div>
                   </div>
                 </div>
@@ -176,33 +148,25 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comments-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Chat</p>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-pie-chart fa-2x"></i>
+                      <p className="tituloLogoCanales">Estudio de mercadeo</p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comment-o fa-2x"></i>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-long-arrow-up fa-2x"></i>
                       <p className="tituloLogoCanales">
-                        Mensajería instantánea
+                      Análisis de datos
                       </p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-user-circle-o fa-2x"></i>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-line-chart fa-2x"></i>
                       <p className="tituloLogoCanales">
-                        Puntos Atención Virtual
+                      Modelos predictivos
                       </p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-facebook-official fa-2x"></i>
-                      <p className="tituloLogoCanales">Redes Sociales</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-envelope-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Email</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-mobile fa-2x"></i>
-                      <p className="tituloLogoCanales">Apps Móviles</p>
+                    <div className="col-md-3 logo-col">
+                      <i className="logoFondo fa fa-thumbs-o-up fa-2x"></i>
+                      <p className="tituloLogoCanales">Sistemas de recomendación</p>
                     </div>
                   </div>
                 </div>
@@ -219,7 +183,7 @@ export const Soluciones = () => {
               />
               <div className="contenido-uno-innova">
                 <h1 className="fw-bolder" style={{ color: "white" }}>
-                Optimización y Automatización de procesos (RPA, RDA)
+                  Optimización y Automatización de procesos (RPA, RDA)
                 </h1>
                 <p style={{ color: "white" }}>
                   La automatización robótica de procesos (RPA) se encarga de las
@@ -234,33 +198,21 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-comments-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Chat</p>
+                    <div className="col-md-4 logo-col">
+                      <i className="logoFondo fa fa-cogs fa-2x"></i>
+                      <p className="tituloLogoCanales">RPA/RDA</p>
                     </div>
-                    <div className="col-md-2 logo-col">
+                    <div className="col-md-4 logo-col">
                       <i className="logoFondo fa fa-comment-o fa-2x"></i>
                       <p className="tituloLogoCanales">
-                        Mensajería instantánea
+                      Chat Bot
                       </p>
                     </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-user-circle-o fa-2x"></i>
+                    <div className="col-md-4 logo-col">
+                      <i className="logoFondo fa fa-comments-o fa-2x"></i>
                       <p className="tituloLogoCanales">
-                        Puntos Atención Virtual
+                      Voice Bot
                       </p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-facebook-official fa-2x"></i>
-                      <p className="tituloLogoCanales">Redes Sociales</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-envelope-o fa-2x"></i>
-                      <p className="tituloLogoCanales">Email</p>
-                    </div>
-                    <div className="col-md-2 logo-col">
-                      <i className="logoFondo fa fa-mobile fa-2x"></i>
-                      <p className="tituloLogoCanales">Apps Móviles</p>
                     </div>
                   </div>
                 </div>

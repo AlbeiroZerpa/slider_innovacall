@@ -30,3 +30,74 @@
   background-color: #186db7ab !important;
   color: white;
 }
+
+.SwipperTercerSlide {
+  background-color: #e8e6e3;
+}
+
+.imgTercerSlider {
+  max-height: 40vh !important;
+  max-width: 40vh !important;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next {
+    right: 0;
+    transform: translate(0%, -320%);
+    background-color: black;
+    color: white;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100%;
+
+}
+
+.swiper-button-prev {
+  right: 0;
+  transform: translate(0%, -320%);
+  background-color: black;
+  color: white;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 25px !important;
+  padding-left: 5px;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  font-size: 25px !important;
+  padding-right: 5px;
+}
+
+.tituloTercerSlider{
+  color: #86837f !important;
+}
+
+.textoTercerSlider{
+  color: #86837f !important;
+}
