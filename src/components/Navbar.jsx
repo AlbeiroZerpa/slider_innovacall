@@ -49,7 +49,7 @@ export const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item"></li>
             </ul>
-            <div className="d-flex linksNavbar">
+            <div className="d-flex linksNavbar flex-wrap">
               <Link className="nav-link active" to="/inicio">
                 Inicio
               </Link>

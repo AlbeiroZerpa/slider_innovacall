@@ -148,14 +148,29 @@ export const Inicio = () => {
               </div>
             </div>
             <Swiper
-              slidesPerView={4}
-              spaceBetween={20}
+              slidesPerView={1}
+              spaceBetween={10}
               navigation={true}
               pagination={{
                 clickable: true,
               }}
               modules={[Navigation, Pagination]}
-              className="mySwiper"
+              className="mySwiperr"
+              breakpoints={{
+                // Cuando el ancho de pantalla es <= 640px
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+              }}
             >
               <SwiperSlide>
                 <img

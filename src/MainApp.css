@@ -34,7 +34,8 @@ body {
 
 .caja-innova {
   width: 100%;
-  height: calc(100vh - 176px);
+  min-height: calc(100vh - 176px);
+  height: auto;
   background-color: rgba(255, 255, 255, 0);
   background-position: left center;
   background-repeat: no-repeat;
@@ -44,6 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #504f4e;
+  position: relative;
 }
 
 .contenido-uno-innova {
@@ -215,4 +217,63 @@ body {
   width: 100%;
   max-width: 300px;
   margin-right: 1.2rem;
+}
+.swiper-vertical > .swiper-pagination-bullets, .swiper-pagination-vertical.swiper-pagination-bullets{
+  background-color: #0000009d;
+  border-radius: 20px;
+  padding: 10px 0;
+  margin-right: 15px;
+}
+.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  margin: 20px 10px;
+}
+
+.fillWidth{
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+.caja-video{
+  width: 100%;
+  height: calc(100vh - 176px);
+  background-color: red;
+  position: relative;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  background-color: black; /* Color de fondo del círculo */
+  border-radius: 50%; /* Hace que tenga forma circular */
+  width: 45px; /* Ancho del círculo */
+  height: 45px; /* Altura del círculo */
+  background-size: 25px 25px; /* Tamaño del ícono dentro del círculo */
+  background-position: center; /* Centra el ícono dentro del círculo */
+}
+@media (max-width:640px){
+  .swiper-button-prev{
+    left:45px;
+  }
+  .swiper-button-next{
+    right: 45px;
+  }
+  .carousel-control-prev{
+    left: 10%;
+  }
+  .carousel-control-next{
+    right: 10%;
+  }
+  .swiper-vertical > .swiper-pagination-bullets, .swiper-pagination-vertical.swiper-pagination-bullets{
+    margin-right: 0px ;
+  }
+  .contenido-uno-innova{
+    width: 100%;
+    min-height: ;
+  }
+  .flips-innova{
+
+  }
 }
