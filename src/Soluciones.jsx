@@ -60,19 +60,19 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-question-circle-o fa-2x"></i>
                       <p className="tituloLogoCanales">Servicio al cliente</p>
                     </div>
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-shopping-cart fa-2x"></i>
                       <p className="tituloLogoCanales">Ventas</p>
                     </div>
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-money fa-2x"></i>
                       <p className="tituloLogoCanales">Cobranzas</p>
                     </div>
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-bullhorn fa-2x"></i>
                       <p className="tituloLogoCanales">Telemercadeo</p>
                     </div>
@@ -106,15 +106,15 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-4 logo-col">
+                    <div className="col-4 logo-col">
                       <i className="logoFondo fa fa-thumbs-o-up fa-2x"></i>
                       <p className="tituloLogoCanales">Gestión de PQR's</p>
                     </div>
-                    <div className="col-md-4 logo-col">
+                    <div className="col-4 logo-col">
                       <i className="logoFondo fa fa-headphones fa-2x"></i>
                       <p className="tituloLogoCanales">Mesa de ayuda</p>
                     </div>
-                    <div className="col-md-4 logo-col">
+                    <div className="col-4 logo-col">
                       <i className="logoFondo fa fa-file-o fa-2x"></i>
                       <p className="tituloLogoCanales">Gestión documental</p>
                     </div>
@@ -148,23 +148,23 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-pie-chart fa-2x"></i>
                       <p className="tituloLogoCanales">Estudio de mercadeo</p>
                     </div>
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-long-arrow-up fa-2x"></i>
                       <p className="tituloLogoCanales">
                       Análisis de datos
                       </p>
                     </div>
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-line-chart fa-2x"></i>
                       <p className="tituloLogoCanales">
                       Modelos predictivos
                       </p>
                     </div>
-                    <div className="col-md-3 logo-col">
+                    <div className="col-4 col-md-3 logo-col">
                       <i className="logoFondo fa fa-thumbs-o-up fa-2x"></i>
                       <p className="tituloLogoCanales">Sistemas de recomendación</p>
                     </div>
@@ -198,17 +198,17 @@ export const Soluciones = () => {
                 <div className="container mt-5">
                   <hr className="lineaLogosCanales" />
                   <div className="logosCanales row logo-row">
-                    <div className="col-md-4 logo-col">
+                    <div className="col-4 logo-col">
                       <i className="logoFondo fa fa-cogs fa-2x"></i>
                       <p className="tituloLogoCanales">RPA/RDA</p>
                     </div>
-                    <div className="col-md-4 logo-col">
+                    <div className="col-4 logo-col">
                       <i className="logoFondo fa fa-comment-o fa-2x"></i>
                       <p className="tituloLogoCanales">
                       Chat Bot
                       </p>
                     </div>
-                    <div className="col-md-4 logo-col">
+                    <div className="col-4 logo-col">
                       <i className="logoFondo fa fa-comments-o fa-2x"></i>
                       <p className="tituloLogoCanales">
                       Voice Bot

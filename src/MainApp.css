@@ -272,7 +272,13 @@ body {
   .contenido-uno-innova{
     width: 100%;
   }
-  .flips-innova{
-
+  .caja-innova .d-flex{
+    flex-direction: column;
+  }
+  .caja-innova .d-flex img{
+    width: 150px;
+  }
+  .contenido-uno-innova p{
+    font-size: .8em;
   }
 }
