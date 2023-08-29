@@ -48,30 +48,30 @@ export const Canales = () => {
                 mientras que maximizamos la eficiencia en costo y gestión para
                 nuestros aliados.
               </p>
-              <div className="container mt-5">
+              <div className="container mt-4">
                 <hr className="lineaLogosCanales" />
                 <div className="logosCanales row logo-row">
-                  <div className="col-md-2 logo-col">
+                  <div className="col-4 col-md-2 logo-col">
                     <i className="logoFondo fa fa-comments-o fa-2x"></i>
                     <p className="tituloLogoCanales">Chat</p>
                   </div>
-                  <div className="col-md-2 logo-col">
+                  <div className="col-4 col-md-2 logo-col">
                     <i className="logoFondo fa fa-comment-o fa-2x"></i>
                     <p className="tituloLogoCanales">Mensajería instantánea</p>
                   </div>
-                  <div className="col-md-2 logo-col">
+                  <div className="col-4 col-md-2 logo-col">
                     <i className="logoFondo fa fa-user-circle-o fa-2x"></i>
                     <p className="tituloLogoCanales">Puntos Atención Virtual</p>
                   </div>
-                  <div className="col-md-2 logo-col">
+                  <div className="col-4 col-md-2 logo-col">
                     <i className="logoFondo fa fa-facebook-official fa-2x"></i>
                     <p className="tituloLogoCanales">Redes Sociales</p>
                   </div>
-                  <div className="col-md-2 logo-col">
+                  <div className="col-4 col-md-2 logo-col">
                     <i className="logoFondo fa fa-envelope-o fa-2x"></i>
                     <p className="tituloLogoCanales">Email</p>
                   </div>
-                  <div className="col-md-2 logo-col">
+                  <div className="col-4 col-md-2 logo-col">
                     <i className="logoFondo fa fa-mobile fa-2x"></i>
                     <p className="tituloLogoCanales">Apps Móviles</p>
                   </div>
