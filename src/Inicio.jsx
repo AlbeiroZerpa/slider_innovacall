@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Mousewheel, Pagination, FreeMode, Navigation } from "swiper/modules";
+import { Mousewheel, Pagination, Navigation } from "swiper/modules";
 import "./Inicio.css";
 
 export const Inicio = () => {
