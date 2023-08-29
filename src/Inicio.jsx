@@ -39,10 +39,13 @@ export const Inicio = () => {
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5>Soluciones Contact Center y BPO</h5>
+                  <h5>Soluciones Contact Center</h5>
                   <p>
-                    El mejor indicador de servicio para sus clientes es una
-                    solución eficiente a sus problemas.
+                    Lo que hace que una empresa se destaque de la competencia es
+                    la calidad de su atención al cliente. Por eso, debe contar
+                    con un equipo de profesionales capacitados y comprometidos
+                    que brinden una respuesta rápida y efectiva a las
+                    necesidades implicadas.
                   </p>
                 </div>
               </div>
@@ -52,10 +55,13 @@ export const Inicio = () => {
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5>Soluciones Automatización de Procesos RPA </h5>
+                  <h5>
+                    Automatización de procesos RPA (Robotic Process Automation)
+                  </h5>
                   <p>
-                    Maximice eficiencia liberando al personal de trabajos
-                    repetitivos que no agregan valor
+                    Permite aumentar la eficiencia operativa, reducir los
+                    errores y mejorar la satisfacción del cliente y de los
+                    empleados.
                   </p>
                 </div>
               </div>
@@ -65,11 +71,11 @@ export const Inicio = () => {
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top caption-top-cel">
-                  <h5>Soluciones Sistemas Conversacionales NLP - Chatbots</h5>
+                  <h5>Los sistemas conversacionales NPL </h5>
                   <p>
-                    En la historia de la humanidad, la inteligencia artificial
-                    es lo mas importante en lo que el hombre ha trabajado.
-                    <b>Sundar Pichai - CEO Google</b>
+                    Son una herramienta poderosa para facilitar la comunicación
+                    y el aprendizaje. Además, pueden crear experiencias
+                    interactivas, creativas y divertidas para los usuarios.
                   </p>
                 </div>
               </div>
@@ -79,10 +85,10 @@ export const Inicio = () => {
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5>Soluciones Inteligencia de Negocio BI</h5>
+                  <h5>La inteligencia de negocios</h5>
                   <p>
-                    Si usted no tiene la información, es simplemente otra
-                    persona con una opinión. <b>W. Edwards Deming</b>
+                    "Es la capacidad de transformar los datos en información, y
+                    la información en conocimiento." <b>Carlos Serrano</b>
                   </p>
                 </div>
               </div>
@@ -118,16 +124,15 @@ export const Inicio = () => {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 col-12">
-                  <h1 className="fw-bolder">Somos Millenium</h1>
+                  <h1 className="fw-bolder">Somos Innovacall</h1>
                 </div>
                 <div className="col-sm-8 col-12">
                   <p>
-                    Más de 20 años de experiencia en el mercado Colombiano
-                    apoyando a nuestros aliados en la gestión eficiente de sus
-                    procesos. A través de nuestras soluciones en RPA/RDA,
-                    Contact Center, Inteligencia Artificial e Inteligencia de
-                    Negocios, somos la mejor opción para enfrentar los retos de
-                    la transformación digital.
+                    Somos una empresa de Contact Center que ofrece múltiples
+                    servicios para una óptima atención al cliente. Nuestro
+                    objetivo es facilitar la comunicación entre las empresas y
+                    sus usuarios, ofreciendo soluciones personalizadas y de
+                    calidad.
                   </p>
                 </div>
               </div>

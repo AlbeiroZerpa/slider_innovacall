@@ -22,13 +22,13 @@ export const Canales = () => {
         <SwiperSlide>
           <div className="caja-innova" id="canales-uno">
             <div className="contenido-uno-innova">
-              <h1 className="fw-bolder">Canales</h1>
+              <h1 className="fw-bolder">Los Canales</h1>
               <p>
-                A través de los canales suceden las interacciones entre nuestros
-                Aliados y sus clientes finales. Buscamos generar un cubrimiento
-                total de los clientes finales con una experiencia de usuario
-                final enfocada al éxito, basada en la consistencia y el
-                constante mejoramiento de procesos.
+                Son el medio por el cual nuestros Aliados se comunican con sus
+                clientes finales. Nuestro objetivo es lograr una cobertura total
+                de los clientes finales con una experiencia de usuario final
+                orientada al éxito, basada en la coherencia y la mejora continua
+                de procesos.
               </p>
             </div>
           </div>
@@ -37,18 +37,17 @@ export const Canales = () => {
           <div className="caja-innova" id="canales-dos">
             <div className="contenido-uno-innova">
               <h1 className="fw-bolder" style={{ color: "white" }}>
-                Digitales
+                El sistema multicanal digital
               </h1>
               <p style={{ color: "white" }}>
-                La multicanalidad digital permite desarrollar una experiencia
-                omnipresente, consolidada, y personalizada según las
-                expectativas de cada cliente. Con una plataforma que integra
-                inteligencia artificial (IA), y consolida procesos e
-                información, logramos brindar un nivel de servicio incomparable,
-                mientras que maximizamos la eficiencia en costo y gestión para
-                nuestros aliados.
+                Nos permite ofrecer una experiencia integrada, fluida y adaptada
+                a las necesidades de cada cliente. Con una plataforma que
+                utiliza inteligencia artificial (IA), y unifica procesos e
+                información, conseguimos proveer un nivel de servicio
+                excepcional, al mismo tiempo que optimizamos la eficiencia en
+                costo y gestión para nuestros socios.
               </p>
-              <div className="container mt-4">
+              <div className="container mt-4 pt-lg-4">
                 <hr className="lineaLogosCanales" />
                 <div className="logosCanales row logo-row">
                   <div className="col-4 col-md-2 logo-col">
@@ -87,13 +86,12 @@ export const Canales = () => {
                 Telefónicos
               </h1>
               <p style={{ color: "white" }}>
-                Uno de los componentes más importantes de nuestra plataforma,
-                debido a la prevalencia de este medio en la cultura de la
-                región. Nuestra experiencia de 20 años y nuestra plataforma
-                automatizada, sumada a un equipo profesional experto, nos
-                convierte en un aliado de alto valor estratégico, tanto en el
-                soporte como en los procesos de ventas telefónicas de alto
-                volumen.
+                La comunicación telefónica es un elemento clave de nuestra
+                plataforma, ya que es el medio más usado en la cultura de la
+                región. Contamos con una plataforma automatizada, además de un
+                equipo profesional experto, que nos hace un socio estratégico de
+                gran valor, tanto para el soporte como para las ventas
+                telefónicas de alto volumen.
               </p>
               <div className="container mt-5">
                 <hr className="lineaLogosCanales" />
@@ -119,7 +117,7 @@ export const Canales = () => {
               </h1>
               <p style={{ color: "white" }}>
                 Contamos con un grupo de trabajo profesional y eficiente, que
-                sumados a nuestra plataforma tecnológica orientada hacia la
+                sumados a nuestra plataforma tecnológica orientada a la
                 innovación y el mejoramiento de procesos en nuestros aliados, lo
                 que convierte el canal presencial en un componente esencial de
                 nuestra oferta de servicios enfocada al crecimiento de negocio.

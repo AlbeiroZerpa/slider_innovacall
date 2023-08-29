@@ -31,11 +31,9 @@ export const Innova = () => {
             <div className="contenido-uno-innova">
               <h1 className="fw-bolder">Somos Innova</h1>
               <p>
-                Durante 20 años hemos sido líderes en la implementación exitosa
-                de soluciones Contact Center y BPO en la región; Con el
-                desarrollo tecnológico profundamente arraigado en nuestro ADN,
-                somos ahora pioneros en la implementación de estrategias de
-                transformación digital para empresas.
+                Somos un call center con más de 3 años de experiencia en el
+                mercado, ofreciendo soluciones integrales de atención al
+                cliente, ventas y soporte técnico.
               </p>
             </div>
           </div>
@@ -43,13 +41,14 @@ export const Innova = () => {
         <SwiperSlide>
           <div className="caja-innova" id="innova-dos">
             <div className="fusion-builder-row fusion-row ">
-              <h1 className="fw-bolder innovaTituloSegundoSliderMobile ">Nuestros pilares</h1>
+              <h1 className="fw-bolder innovaTituloSegundoSliderMobile ">
+                Nuestros pilares
+              </h1>
               <p className="text-center innovaTextoSegundoSliderMobile">
-                Gracias a la combinación de avanzada tecnología, el mejor equipo
-                de trabajo y un profundo conocimiento de los diferentes modelos
-                de negocio de nuestros aliados, hemos logrado transformar la
-                forma en que las empresas abordan sus procesos con eficiencia y
-                respaldo:
+                Somos una empresa que brinda soluciones a medida para mejorar
+                los procesos de nuestros socios, empleando tecnología avanzada,
+                un personal altamente capacitado y un profundo conocimiento de
+                las demandas y metas de cada sector.
               </p>
 
               <div className="flips-innova innovaSegundoSliderPC">
@@ -65,10 +64,9 @@ export const Innova = () => {
                       <div>
                         <h2 className="fw-bolder">Tecnología</h2>
                         <p>
-                          Nos encontramos en un proceso permanente de
-                          innovación, a través de herramientas de última
-                          generación para llevar la transformación digital a
-                          nuestros aliados.
+                          Es un factor clave para el desarrollo de las
+                          organizaciones, por eso ofrecemos soluciones digitales
+                          a medida que se adaptan a las necesidades del cliente.
                         </p>
                       </div>
                     </div>
@@ -86,10 +84,9 @@ export const Innova = () => {
                       <div>
                         <h2 className="fw-bolder">Capital Humano</h2>
                         <p>
-                          Además de esforzarnos por consolidar el mejor grupo de
-                          trabajo para nuestros aliados y sus clientes, nos
-                          encargamos de fomentar una cultura laboral positiva y
-                          enfocada en el éxito.
+                          Es el recurso más valioso que tenemos, ya que son las
+                          personas las que aportan su talento y compromiso a
+                          cada proyecto.
                         </p>
                       </div>
                     </div>
@@ -116,6 +113,104 @@ export const Innova = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div className="flips-innova innovaSegundoSliderMobile">
+                <Swiper
+                  slidesPerView={1}
+                  spaceBetween={0}
+                  navigation={true}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  modules={[Navigation, Pagination]}
+                  className="mySwiperr"
+                  breakpoints={{
+                    // Cuando el ancho de pantalla es <= 640px
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 20,
+                    },
+                  }}
+                >
+                  <SwiperSlide>
+                    <div className="flip-box" id="flip-box-uno">
+                      <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                          <img
+                            src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-tecnologia.jpg"
+                            alt="Paris"
+                          />
+                        </div>
+                        <div className="flip-box-back px-3">
+                          <div>
+                            <h2 className="fw-bolder">Tecnología</h2>
+                            <p>
+                              Nos encontramos en un proceso permanente de
+                              innovación, a través de herramientas de última
+                              generación para llevar la transformación digital a
+                              nuestros aliados.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="flip-box" id="flip-box-dos">
+                      <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                          <img
+                            src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-humano-1.jpg"
+                            alt="Paris"
+                          />
+                        </div>
+                        <div className="flip-box-back px-3">
+                          <div>
+                            <h2 className="fw-bolder">Capital Humano</h2>
+                            <p>
+                              Además de esforzarnos por consolidar el mejor
+                              grupo de trabajo para nuestros aliados y sus
+                              clientes, nos encargamos de fomentar una cultura
+                              laboral positiva y enfocada en el éxito.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="flip-box" id="flip-box-tres">
+                      <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                          <img
+                            src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-procesos.jpg"
+                            alt="Paris"
+                          />
+                        </div>
+                        <div className="flip-box-back px-3">
+                          <div>
+                            <h2 className="fw-bolder">Procesos</h2>
+                            <p>
+                              En los últimos 3 años, hemos trabajado con
+                              nuestros aliados en proyectos exitosos que nos han
+                              permitido adquirir una experiencia profunda en la
+                              operación y gestión eficiente de las empresas.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
           </div>
