@@ -35,12 +35,12 @@ export const Inicio = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="https://millenium.com.co/wp-content/uploads/2019/04/slider-001-v2.jpg"
+                  src="../public/inicioSlider1.jpeg"
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5>Soluciones Contact Center</h5>
-                  <p>
+                  <h5 style={{ color: "white" }}>Soluciones Contact Center</h5>
+                  <p style={{ color: "white" }}>
                     Lo que hace que una empresa se destaque de la competencia es
                     la calidad de su atención al cliente. Por eso, debe contar
                     con un equipo de profesionales capacitados y comprometidos
@@ -51,14 +51,14 @@ export const Inicio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="https://millenium.com.co/wp-content/uploads/2019/05/slider-002-v3.jpg"
+                  src="../public/inicioSlider2.jpg"
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5>
+                  <h5 style={{ color: "white" }}>
                     Automatización de procesos RPA (Robotic Process Automation)
                   </h5>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Permite aumentar la eficiencia operativa, reducir los
                     errores y mejorar la satisfacción del cliente y de los
                     empleados.
@@ -67,12 +67,12 @@ export const Inicio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="https://millenium.com.co/wp-content/uploads/2019/04/slider-003-1.jpg"
+                  src="../public/inicioSlider3.jpeg"
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top caption-top-cel">
-                  <h5>Los sistemas conversacionales NPL </h5>
-                  <p>
+                  <h5 style={{ color: "white" }}>Los sistemas conversacionales NPL </h5>
+                  <p style={{ color: "white" }}>
                     Son una herramienta poderosa para facilitar la comunicación
                     y el aprendizaje. Además, pueden crear experiencias
                     interactivas, creativas y divertidas para los usuarios.
@@ -81,12 +81,12 @@ export const Inicio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="https://millenium.com.co/wp-content/uploads/2019/02/slider-004.jpg"
+                  src="../public/inicioSlider4.jpeg"
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5>La inteligencia de negocios</h5>
-                  <p>
+                  <h5 style={{ color: "white" }}>La inteligencia de negocios</h5>
+                  <p style={{ color: "white" }}>
                     "Es la capacidad de transformar los datos en información, y
                     la información en conocimiento." <b>Carlos Serrano</b>
                   </p>

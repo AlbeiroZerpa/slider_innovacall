@@ -46,7 +46,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-dos">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="https://millenium.com.co/wp-content/uploads/2019/04/icon-solution-01-contact-400x400.png"
+                src="../public/soluciones1.png"
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
@@ -91,7 +91,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-tres">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="https://millenium.com.co/wp-content/uploads/2019/04/icon-solution-02-operaciones-400x400.png"
+                src="../public/soluciones2.png"
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
@@ -133,7 +133,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-cuatro">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="https://millenium.com.co/wp-content/uploads/2019/04/icon-solution-03-inteligencia-400x400.png"
+                src="../public/soluciones3.png"
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
@@ -179,7 +179,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-cinco">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="https://millenium.com.co/wp-content/uploads/2019/04/icon-solution-04-rparda-400x400.png"
+                src="../public/soluciones4.png"
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">

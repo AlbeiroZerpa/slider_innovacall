@@ -203,19 +203,24 @@ body {
   height: calc(100vh - 176px);
 }
 #soluciones-uno{
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bks-servicios.jpg");
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/soluciones.jpeg");
+  color: white;
 }
 #soluciones-dos{
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-01.jpg");
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/solucionesB1.jpg");
+   color: white;
 }
 #soluciones-tres{
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-02.jpg");
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/solucionesB2.jpg");
+   color: white;
 }
 #soluciones-cuatro{
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-03-1.jpg");
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/solucionesB3.jpg");
+   color: white;
 }
 #soluciones-cinco{
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-solutions-04.jpg");
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/solucionesB4.jpg");
+   color: white;
 }
 .circulo-img{
   width: 100%;

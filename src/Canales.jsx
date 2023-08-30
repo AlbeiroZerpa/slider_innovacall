@@ -22,7 +22,9 @@ export const Canales = () => {
         <SwiperSlide>
           <div className="caja-innova" id="canales-uno">
             <div className="contenido-uno-innova ">
-              <h1 className="fw-bolder textoCanales" style={{ color: "white" }}>Los Canales</h1>
+              <h1 className="fw-bolder textoCanales" style={{ color: "white" }}>
+                Los Canales
+              </h1>
               <p className="" style={{ color: "white" }}>
                 Son el medio por el cual nuestros Aliados se comunican con sus
                 clientes finales. Nuestro objetivo es lograr una cobertura total
@@ -37,15 +39,15 @@ export const Canales = () => {
           <div className="caja-innova" id="canales-dos">
             <div className="contenido-uno-innova ">
               <h1 className="fw-bolder pt-lg-5" style={{ color: "white" }}>
-                El sistema multicanal digital
+                Digitales
               </h1>
               <p className="pb-lg-5" style={{ color: "white" }}>
-                Nos permite ofrecer una experiencia integrada, fluida y adaptada
-                a las necesidades de cada cliente. Con una plataforma que
-                utiliza inteligencia artificial (IA), y unifica procesos e
-                información, conseguimos proveer un nivel de servicio
-                excepcional, al mismo tiempo que optimizamos la eficiencia en
-                costo y gestión para nuestros socios.
+                El sistema multicanal nos permite ofrecer una experiencia
+                integrada, fluida y adaptada a las necesidades de cada cliente.
+                Con una plataforma que utiliza inteligencia artificial (IA), y
+                unifica procesos e información, conseguimos proveer un nivel de
+                servicio excepcional, al mismo tiempo que optimizamos la
+                eficiencia en costo y gestión para nuestros socios.
               </p>
               <div className="container mt-4 pt-lg-5">
                 <hr className="lineaLogosCanales" />
