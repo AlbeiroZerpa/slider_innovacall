@@ -35,9 +35,13 @@ export const Contacto = () => {
             </p>
             <h5 className="fw-bolder pt-3">Dirección</h5>
             <p>
-              <b>
-                Centro Comercial Sabana Sur Oficina 23-3, San José, Costa Rica
-              </b>
+              Centro Comercial Sabana Sur Oficina 23-3,
+              <b> San José, Costa Rica</b>
+            </p>
+            <h5 className="fw-bolder pt-3">Teléfonos</h5>
+            <p>
+              6 354 4440
+              <br />4 103 1200
             </p>
           </div>
         </div>
