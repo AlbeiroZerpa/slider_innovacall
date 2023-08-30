@@ -1,6 +1,7 @@
 {
   "name": "slider_innovacall",
   "private": true,
+  "homepage": "https://AlbeiroZerpa.github.io/slider_innovacall/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -139,19 +139,23 @@ body {
 }
 
 #canales-uno {
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-canales-v2.jpg") !important;
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/canales1.jpeg") !important;
+  font-size: calc(0.8em + 0.75vw)
 }
 
 #canales-dos {
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-canales-01.jpg") !important;
+  background-image: linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/canales2.jpeg") !important;
+  font-size: calc(0.8em + 0.75vw)
 }
 
 #canales-tres {
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-canales-02.jpg") !important;
+  background-image:  linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/canales3.jpeg") !important;
+  font-size: calc(0.8em + 0.75vw)
 }
 
 #canales-cuatro {
-  background-image: url("https://millenium.com.co/wp-content/uploads/2019/04/bkg-canales-03.jpg") !important;
+  background-image:  linear-gradient(rgba(32, 115, 174, 0.6), rgba(32, 115, 174, 0.6)), url("../public/canales4.jpeg") !important;
+  font-size: calc(0.8em + 0.75vw)
 }
 
 .logo-col {

@@ -21,9 +21,9 @@ export const Canales = () => {
       >
         <SwiperSlide>
           <div className="caja-innova" id="canales-uno">
-            <div className="contenido-uno-innova">
-              <h1 className="fw-bolder">Los Canales</h1>
-              <p>
+            <div className="contenido-uno-innova ">
+              <h1 className="fw-bolder textoCanales" style={{ color: "white" }}>Los Canales</h1>
+              <p className="" style={{ color: "white" }}>
                 Son el medio por el cual nuestros Aliados se comunican con sus
                 clientes finales. Nuestro objetivo es lograr una cobertura total
                 de los clientes finales con una experiencia de usuario final
@@ -35,11 +35,11 @@ export const Canales = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="caja-innova" id="canales-dos">
-            <div className="contenido-uno-innova">
-              <h1 className="fw-bolder" style={{ color: "white" }}>
+            <div className="contenido-uno-innova ">
+              <h1 className="fw-bolder pt-lg-5" style={{ color: "white" }}>
                 El sistema multicanal digital
               </h1>
-              <p style={{ color: "white" }}>
+              <p className="pb-lg-5" style={{ color: "white" }}>
                 Nos permite ofrecer una experiencia integrada, fluida y adaptada
                 a las necesidades de cada cliente. Con una plataforma que
                 utiliza inteligencia artificial (IA), y unifica procesos e
@@ -47,7 +47,7 @@ export const Canales = () => {
                 excepcional, al mismo tiempo que optimizamos la eficiencia en
                 costo y gestión para nuestros socios.
               </p>
-              <div className="container mt-4 pt-lg-4">
+              <div className="container mt-4 pt-lg-5">
                 <hr className="lineaLogosCanales" />
                 <div className="logosCanales row logo-row">
                   <div className="col-4 col-md-2 logo-col">
@@ -81,11 +81,11 @@ export const Canales = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="caja-innova" id="canales-tres">
-            <div className="contenido-uno-innova">
-              <h1 className="fw-bolder" style={{ color: "white" }}>
+            <div className="contenido-uno-innova ">
+              <h1 className="fw-bolder textoCanales" style={{ color: "white" }}>
                 Telefónicos
               </h1>
-              <p style={{ color: "white" }}>
+              <p className="" style={{ color: "white" }}>
                 La comunicación telefónica es un elemento clave de nuestra
                 plataforma, ya que es el medio más usado en la cultura de la
                 región. Contamos con una plataforma automatizada, además de un
@@ -93,7 +93,7 @@ export const Canales = () => {
                 gran valor, tanto para el soporte como para las ventas
                 telefónicas de alto volumen.
               </p>
-              <div className="container mt-5">
+              <div className="container mt-5 pt-lg-5">
                 <hr className="lineaLogosCanales" />
                 <div className="logosCanales row logo-row">
                   <div className="col-md-6 logo-col">
@@ -111,18 +111,18 @@ export const Canales = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="caja-innova" id="canales-cuatro">
-            <div className="contenido-uno-innova">
-              <h1 className="fw-bolder" style={{ color: "white" }}>
+            <div className="contenido-uno-innova ">
+              <h1 className="fw-bolder textoCanales" style={{ color: "white" }}>
                 Presenciales
               </h1>
-              <p style={{ color: "white" }}>
+              <p className="" style={{ color: "white" }}>
                 Contamos con un grupo de trabajo profesional y eficiente, que
                 sumados a nuestra plataforma tecnológica orientada a la
                 innovación y el mejoramiento de procesos en nuestros aliados, lo
                 que convierte el canal presencial en un componente esencial de
                 nuestra oferta de servicios enfocada al crecimiento de negocio.
               </p>
-              <div className="container mt-5">
+              <div className="container mt-5 pt-lg-5">
                 <hr className="lineaLogosCanales" />
                 <div className="logosCanales row logo-row">
                   <div className="col-md-6 logo-col">
