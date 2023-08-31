@@ -1,5 +1,9 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import solucionUno from '../public/soluciones1.png'
+import solucionDos from '../public/soluciones2.png'
+import solucionTres from '../public/soluciones3.png'
+import solucionCuatro from '../public/soluciones4.png'
 
 // Import Swiper styles
 import "swiper/css";
@@ -46,7 +50,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-dos">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="../public/soluciones1.png"
+                src={solucionUno}
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
@@ -91,7 +95,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-tres">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="../public/soluciones2.png"
+                src={solucionDos}
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
@@ -133,7 +137,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-cuatro">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="../public/soluciones3.png"
+                src={solucionTres}
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
@@ -179,7 +183,7 @@ export const Soluciones = () => {
           <div className="caja-innova" id="soluciones-cinco">
             <div className="d-flex justify-content-center align-items-center">
               <img
-                src="../public/soluciones4.png"
+                src={solucionCuatro}
                 className="circulo-img"
               />
               <div className="contenido-uno-innova">
