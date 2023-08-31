@@ -10,6 +10,10 @@ import "swiper/css/navigation";
 // import required modules
 import { Mousewheel, Pagination, EffectFade, Navigation } from "swiper/modules";
 import "./Innova.css";
+import pilar1 from "../public/tecnologia1.png";
+import pilar2 from "../public/tecnologia2.png";
+import pilar3 from "../public/tecnologia.png";
+
 
 export const Innova = () => {
   return (
@@ -29,7 +33,7 @@ export const Innova = () => {
         <SwiperSlide>
           <div className="caja-innova" id="innova-uno">
             <div className="contenido-uno-innova">
-              <h1 className="fw-bolder">Somos Innova</h1>
+              <h1 className="fw-bolder">Somos Innovacall</h1>
               <p>
                 Somos un call center con más de 3 años de experiencia en el
                 mercado, ofreciendo soluciones integrales de atención al
@@ -56,7 +60,7 @@ export const Innova = () => {
                   <div className="flip-box-inner">
                     <div className="flip-box-front">
                       <img
-                        src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-tecnologia.jpg"
+                        src={pilar1}
                         alt="Paris"
                       />
                     </div>
@@ -76,7 +80,7 @@ export const Innova = () => {
                   <div className="flip-box-inner">
                     <div className="flip-box-front">
                       <img
-                        src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-humano-1.jpg"
+                        src={pilar2}
                         alt="Paris"
                       />
                     </div>
@@ -96,7 +100,7 @@ export const Innova = () => {
                   <div className="flip-box-inner">
                     <div className="flip-box-front">
                       <img
-                        src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-procesos.jpg"
+                        src={pilar3}
                         alt="Paris"
                       />
                     </div>
@@ -146,7 +150,7 @@ export const Innova = () => {
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
                           <img
-                            src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-tecnologia.jpg"
+                            src={pilar1}
                             alt="Paris"
                           />
                         </div>
@@ -169,7 +173,7 @@ export const Innova = () => {
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
                           <img
-                            src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-humano-1.jpg"
+                            src={pilar2}
                             alt="Paris"
                           />
                         </div>
@@ -192,7 +196,7 @@ export const Innova = () => {
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
                           <img
-                            src="https://millenium.com.co/wp-content/uploads/2019/05/bkg-pilar-procesos.jpg"
+                            src={pilar3}
                             alt="Paris"
                           />
                         </div>

@@ -11,6 +11,12 @@ import "swiper/css/navigation";
 // import required modules
 import { Mousewheel, Pagination, Navigation } from "swiper/modules";
 import "./Inicio.css";
+import imagen1Slider1 from "../public/inicioSlider1.jpeg";
+import imagen2Slider1 from "../public/inicioSlider2.jpg";
+import imagen3Slider1 from "../public/inicioSlider3.jpeg";
+import imagen4Slider1 from "../public/inicioSlider4.jpeg";
+
+
 
 export const Inicio = () => {
   return (
@@ -35,7 +41,7 @@ export const Inicio = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="../public/inicioSlider1.jpeg"
+                  src={imagen1Slider1}
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
@@ -51,7 +57,7 @@ export const Inicio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="../public/inicioSlider2.jpg"
+                  src={imagen2Slider1}
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
@@ -67,11 +73,13 @@ export const Inicio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="../public/inicioSlider3.jpeg"
+                  src={imagen3Slider1}
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top caption-top-cel">
-                  <h5 style={{ color: "white" }}>Los sistemas conversacionales NPL </h5>
+                  <h5 style={{ color: "white" }}>
+                    Los sistemas conversacionales NPL{" "}
+                  </h5>
                   <p style={{ color: "white" }}>
                     Son una herramienta poderosa para facilitar la comunicación
                     y el aprendizaje. Además, pueden crear experiencias
@@ -81,11 +89,13 @@ export const Inicio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="../public/inicioSlider4.jpeg"
+                  src={imagen4Slider1}
                   className="d-block w-100 imagenInicioCarrusel"
                 />
                 <div className="carousel-caption d-none d-md-block caption-top">
-                  <h5 style={{ color: "white" }}>La inteligencia de negocios</h5>
+                  <h5 style={{ color: "white" }}>
+                    La inteligencia de negocios
+                  </h5>
                   <p style={{ color: "white" }}>
                     "Es la capacidad de transformar los datos en información, y
                     la información en conocimiento." <b>Carlos Serrano</b>
