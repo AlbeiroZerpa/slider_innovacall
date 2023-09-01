@@ -14,7 +14,6 @@ import pilar1 from "../public/tecnologia1.png";
 import pilar2 from "../public/tecnologia2.png";
 import pilar3 from "../public/tecnologia.png";
 
-
 export const Innova = () => {
   return (
     <>
@@ -59,10 +58,7 @@ export const Innova = () => {
                 <div className="flip-box" id="flip-box-uno">
                   <div className="flip-box-inner">
                     <div className="flip-box-front">
-                      <img
-                        src={pilar1}
-                        alt="Paris"
-                      />
+                      <img src={pilar1} alt="Paris" />
                     </div>
                     <div className="flip-box-back px-3">
                       <div>
@@ -79,10 +75,7 @@ export const Innova = () => {
                 <div className="flip-box" id="flip-box-dos">
                   <div className="flip-box-inner">
                     <div className="flip-box-front">
-                      <img
-                        src={pilar2}
-                        alt="Paris"
-                      />
+                      <img src={pilar2} alt="Paris" />
                     </div>
                     <div className="flip-box-back px-3">
                       <div>
@@ -99,10 +92,7 @@ export const Innova = () => {
                 <div className="flip-box" id="flip-box-tres">
                   <div className="flip-box-inner">
                     <div className="flip-box-front">
-                      <img
-                        src={pilar3}
-                        alt="Paris"
-                      />
+                      <img src={pilar3} alt="Paris" />
                     </div>
                     <div className="flip-box-back px-3">
                       <div>
@@ -149,10 +139,7 @@ export const Innova = () => {
                     <div className="flip-box" id="flip-box-uno">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img
-                            src={pilar1}
-                            alt="Paris"
-                          />
+                          <img src={pilar1} alt="Paris" />
                         </div>
                         <div className="flip-box-back px-3">
                           <div>
@@ -172,10 +159,7 @@ export const Innova = () => {
                     <div className="flip-box" id="flip-box-dos">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img
-                            src={pilar2}
-                            alt="Paris"
-                          />
+                          <img src={pilar2} alt="Paris" />
                         </div>
                         <div className="flip-box-back px-3">
                           <div>
@@ -195,19 +179,16 @@ export const Innova = () => {
                     <div className="flip-box" id="flip-box-tres">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img
-                            src={pilar3}
-                            alt="Paris"
-                          />
+                          <img src={pilar3} alt="Paris" />
                         </div>
                         <div className="flip-box-back px-3">
                           <div>
                             <h2 className="fw-bolder">Procesos</h2>
                             <p>
-                              En los últimos 3 años, hemos trabajado con
-                              nuestros aliados en proyectos exitosos que nos han
-                              permitido adquirir una experiencia profunda en la
-                              operación y gestión eficiente de las empresas.
+                              Hemos trabajado con nuestros aliados en proyectos
+                              exitosos que nos han permitido adquirir una
+                              experiencia profunda en laoperación y gestión
+                              eficiente de las empresas.
                             </p>
                           </div>
                         </div>
